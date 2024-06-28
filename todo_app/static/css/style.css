@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+    padding: 50px 250px;
+    background-color: beige;
+    color: rgb(68, 68, 68);
+}
+h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.add form{
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+}
+.add form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.add form input,
+.add form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8x;
+    box-sizing: border-box;
+}
+.add form button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.add form button:hover {
+    background-color: #FFF;
+    color: blue;
+    border: 1px solid rgb(5, 5, 121);
+    transition: 0.25s;
+}
+.add .field-error{
+    color: rgb(255, 73, 73);
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.index a{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: rgb(17, 104, 226);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.index a:hover{
+    background-color: rgb(10, 67, 148);
+}
+.index ul {
+    list-style-type: none;
+}
+.index li{
+    background-color: #FFF;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: #00000010;
+}
+.task-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.task-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.task-date{
+    font-size: 14px;
+    color: #666;
+}
+.task-description{
+    font-size: 16px;
+}
+.index li.complete{
+    text-decoration: line-through;
+    color: #999;
+}
